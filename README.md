@@ -190,7 +190,7 @@
 
 可见leader先将命令写入日志，然后给follower发送日志，最后将命令应用到状态机中，删除此键值对。此时运行readClient查询各结点key为a的value，运行结果如下：
 
-![img](README.assets/clip_image036.jpg)
+![img](README.assets/clip_image002.jpg)
 
 可见key为a的键值对在所有结点的状态机中都被删去了。
 
